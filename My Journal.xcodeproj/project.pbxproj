@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		4150054323B9F3C3001FDA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150054223B9F3C3001FDA22 /* AppDelegate.swift */; };
-		4150054523B9F3C3001FDA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150054423B9F3C3001FDA22 /* ViewController.swift */; };
-		4150054823B9F3C3001FDA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4150054623B9F3C3001FDA22 /* Main.storyboard */; };
 		4150054B23B9F3C3001FDA22 /* My_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4150054923B9F3C3001FDA22 /* My_Journal.xcdatamodeld */; };
 		4150054D23B9F3C4001FDA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4150054C23B9F3C4001FDA22 /* Assets.xcassets */; };
 		4150055023B9F3C4001FDA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4150054E23B9F3C4001FDA22 /* LaunchScreen.storyboard */; };
 		4150055B23B9F3C4001FDA22 /* My_JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150055A23B9F3C4001FDA22 /* My_JournalTests.swift */; };
 		4150056623B9F3C4001FDA22 /* My_JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150056523B9F3C4001FDA22 /* My_JournalUITests.swift */; };
+		4150057723B9F449001FDA22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150057623B9F449001FDA22 /* LoginViewController.swift */; };
+		4150057A23C18E11001FDA22 /* JournalApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150057923C18E11001FDA22 /* JournalApi.swift */; };
+		4150058123C1A281001FDA22 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058023C1A281001FDA22 /* LoginTextField.swift */; };
+		4150058523C1C4F2001FDA22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058423C1C4F2001FDA22 /* MainViewController.swift */; };
+		4150058723C277A5001FDA22 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058623C277A5001FDA22 /* NavBar.swift */; };
+		4150058923C2AEF4001FDA22 /* CollectionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058823C2AEF4001FDA22 /* CollectionPostCell.swift */; };
+		4150058B23C2BFEA001FDA22 /* EditDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058A23C2BFEA001FDA22 /* EditDeleteView.swift */; };
+		4150058D23C2CB2F001FDA22 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150058C23C2CB2F001FDA22 /* UserSession.swift */; };
+		4150059123C2CDBD001FDA22 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150059023C2CDBD001FDA22 /* Post.swift */; };
+		4169D7CA23C4F05800741948 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169D7C923C4F05800741948 /* PostViewController.swift */; };
+		4169D7CC23C4F56900741948 /* EditablePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169D7CB23C4F56900741948 /* EditablePostView.swift */; };
+		41F9A27F23C709BD0092CCAA /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F9A27E23C709BD0092CCAA /* KeyChainHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +47,6 @@
 /* Begin PBXFileReference section */
 		4150053F23B9F3C3001FDA22 /* My Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4150054223B9F3C3001FDA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4150054423B9F3C3001FDA22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4150054723B9F3C3001FDA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4150054A23B9F3C3001FDA22 /* My_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Journal.xcdatamodel; sourceTree = "<group>"; };
 		4150054C23B9F3C4001FDA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4150054F23B9F3C4001FDA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		4150056123B9F3C4001FDA22 /* My JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4150056523B9F3C4001FDA22 /* My_JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_JournalUITests.swift; sourceTree = "<group>"; };
 		4150056723B9F3C4001FDA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4150057623B9F449001FDA22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4150057923C18E11001FDA22 /* JournalApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalApi.swift; sourceTree = "<group>"; };
+		4150058023C1A281001FDA22 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		4150058423C1C4F2001FDA22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4150058623C277A5001FDA22 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		4150058823C2AEF4001FDA22 /* CollectionPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPostCell.swift; sourceTree = "<group>"; };
+		4150058A23C2BFEA001FDA22 /* EditDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDeleteView.swift; sourceTree = "<group>"; };
+		4150058C23C2CB2F001FDA22 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		4150059023C2CDBD001FDA22 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4169D7C923C4F05800741948 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		4169D7CB23C4F56900741948 /* EditablePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditablePostView.swift; sourceTree = "<group>"; };
+		41F9A27E23C709BD0092CCAA /* KeyChainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,11 @@
 		4150054123B9F3C3001FDA22 /* My Journal */ = {
 			isa = PBXGroup;
 			children = (
+				4150057823C18DE2001FDA22 /* ServiceWorkers */,
+				4150057523B9F41F001FDA22 /* Views */,
+				4150057423B9F416001FDA22 /* ViewControllers */,
+				4150057323B9F409001FDA22 /* Models */,
 				4150054223B9F3C3001FDA22 /* AppDelegate.swift */,
-				4150054423B9F3C3001FDA22 /* ViewController.swift */,
-				4150054623B9F3C3001FDA22 /* Main.storyboard */,
 				4150054C23B9F3C4001FDA22 /* Assets.xcassets */,
 				4150054E23B9F3C4001FDA22 /* LaunchScreen.storyboard */,
 				4150055123B9F3C4001FDA22 /* Info.plist */,
@@ -126,6 +148,46 @@
 				4150056723B9F3C4001FDA22 /* Info.plist */,
 			);
 			path = "My JournalUITests";
+			sourceTree = "<group>";
+		};
+		4150057323B9F409001FDA22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4150058C23C2CB2F001FDA22 /* UserSession.swift */,
+				4150059023C2CDBD001FDA22 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4150057423B9F416001FDA22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4150057623B9F449001FDA22 /* LoginViewController.swift */,
+				4150058423C1C4F2001FDA22 /* MainViewController.swift */,
+				4169D7C923C4F05800741948 /* PostViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4150057523B9F41F001FDA22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4150058023C1A281001FDA22 /* LoginTextField.swift */,
+				4150058623C277A5001FDA22 /* NavBar.swift */,
+				4150058823C2AEF4001FDA22 /* CollectionPostCell.swift */,
+				4150058A23C2BFEA001FDA22 /* EditDeleteView.swift */,
+				4169D7CB23C4F56900741948 /* EditablePostView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4150057823C18DE2001FDA22 /* ServiceWorkers */ = {
+			isa = PBXGroup;
+			children = (
+				41F9A27E23C709BD0092CCAA /* KeyChainHelper.swift */,
+				4150057923C18E11001FDA22 /* JournalApi.swift */,
+			);
+			path = ServiceWorkers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +296,6 @@
 			files = (
 				4150055023B9F3C4001FDA22 /* LaunchScreen.storyboard in Resources */,
 				4150054D23B9F3C4001FDA22 /* Assets.xcassets in Resources */,
-				4150054823B9F3C3001FDA22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +320,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4169D7CA23C4F05800741948 /* PostViewController.swift in Sources */,
+				4150057A23C18E11001FDA22 /* JournalApi.swift in Sources */,
+				4150058D23C2CB2F001FDA22 /* UserSession.swift in Sources */,
+				4150059123C2CDBD001FDA22 /* Post.swift in Sources */,
+				4150057723B9F449001FDA22 /* LoginViewController.swift in Sources */,
+				41F9A27F23C709BD0092CCAA /* KeyChainHelper.swift in Sources */,
 				4150054B23B9F3C3001FDA22 /* My_Journal.xcdatamodeld in Sources */,
-				4150054523B9F3C3001FDA22 /* ViewController.swift in Sources */,
+				4150058B23C2BFEA001FDA22 /* EditDeleteView.swift in Sources */,
+				4169D7CC23C4F56900741948 /* EditablePostView.swift in Sources */,
+				4150058523C1C4F2001FDA22 /* MainViewController.swift in Sources */,
+				4150058723C277A5001FDA22 /* NavBar.swift in Sources */,
+				4150058923C2AEF4001FDA22 /* CollectionPostCell.swift in Sources */,
 				4150054323B9F3C3001FDA22 /* AppDelegate.swift in Sources */,
+				4150058123C1A281001FDA22 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4150054623B9F3C3001FDA22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4150054723B9F3C3001FDA22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4150054E23B9F3C4001FDA22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
