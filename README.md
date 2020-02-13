@@ -9,7 +9,7 @@ Firebase comes with it’s own limitations that messes up the architecture of th
 code that’s suppose to be on the server-side.
 
 ## Technologies: 
-1. Heroku
+1. Heroku (For the server)
 2. Passport.js
 3. Cookie-storage
 4. Cookie-parser
@@ -20,15 +20,17 @@ code that’s suppose to be on the server-side.
 9. Express
 10. Bcrypt.js
 11. Passport.js
+12. UIKit
 
 ## Languages: 
 1. Swift
 
 #### What can the app do?
 1. I use passport.js to authenticate users with a local strategy located in the mongo cluster.
-2. Allow users to post a video idea and list them in a collection view.
+2. Allow users to post journal entries.
+3. Journal entries are ordered by date. (Youngest to Oldest)
 3. Ability to edit and delete each post.
-4. A sidebar that is just a UIView that holds a logout button.
+4. Logout functionality.
 
 
 
