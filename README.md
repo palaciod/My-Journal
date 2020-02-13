@@ -35,9 +35,17 @@ code that’s suppose to be on the server-side.
 #### Below are some screenshots of the app
 
 
-<img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.56.25.png"
+<img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 16.25.47.png"
     alt="home"
     style="float: left; margin-right: 10px;"
-    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 20.17.24.png"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 17.29.41.png"
     alt="home"
     style="float: left; margin-right:10px;"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 16.32.42.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 17.29.32.png
+"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/>
