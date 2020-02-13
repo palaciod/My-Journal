@@ -44,8 +44,7 @@ code that’s suppose to be on the server-side.
     width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 16.32.42.png"
     alt="home"
     style="float: left; margin-right:10px;"
-    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 17.29.32.png
-"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 16.32.42.png"
     alt="home"
     style="float: left; margin-right:10px;"
     width="200"/>
